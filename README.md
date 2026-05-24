@@ -1,6 +1,6 @@
 # Prealgebra Bundle With LLMs
 
-**Author:** Nik Bear Brown
+**Author:** Humanitarians AI
 
 **Folder:** `books/prealgebra-bundle-with-llms/`
 
