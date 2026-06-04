@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2560" width="1600" height="2560" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <g id="background"><rect x="0" y="0" width="1600" height="2560" fill="#F5C518"/></g>
+  <g id="symbol-fragments" transform="rotate(-2, 800, 850)">
+    <rect x="300" y="280" width="760" height="82" fill="#111111"/>
+    <rect x="420" y="425" width="714" height="82" fill="#111111"/>
+    <rect x="300" y="570" width="668" height="82" fill="#111111"/>
+    <rect x="420" y="715" width="622" height="82" fill="#111111"/>
+    <rect x="300" y="860" width="576" height="82" fill="#D62B2B"/>
+    <rect x="420" y="1005" width="530" height="82" fill="#111111"/>
+    <polygon points="1199,782 1011,771 956,661 1005,522 1152,537 1228,633" fill="#111111"/>
+  </g>
+  <g id="title-letterforms">
+    <text x="120" y="1510" font-family="Arial Black, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="0" fill="#D62B2B" textLength="1300" lengthAdjust="spacingAndGlyphs">PREALGEBRA</text>
+  </g>
+</svg>
