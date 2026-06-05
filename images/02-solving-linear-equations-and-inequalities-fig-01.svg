@@ -1,0 +1,26 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-2-1 desc-2-1">
+<title id="title-2-1">Two number lines stacked vertically</title>
+<desc id="desc-2-1">Two number lines stacked vertically. Top line: open circle at 4 with shading extending to the left, labeled "$x &lt; 4$" and "$(-\infty, 4)$". Bottom line: closed circle at 3 with shading extending to the left, labeled "$x \le 3$" and "$(-\infty, 3</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<text x="48" y="54" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Two number lines stacked vertically</text>
+<text x="48" y="78" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454"><tspan x="48" dy="0">Two number lines stacked vertically. Top line: open circle at 4</tspan><tspan x="48" dy="15">with shading extending to the left, labeled "$x &lt; 4$" and</tspan><tspan x="48" dy="15">"$(-\infty, 4)$". Bottom line: closed circle at 3 with shading</tspan><tspan x="48" dy="15">extending to the left, labeled "$x \le 3$" and "$(-\infty, 3</tspan></text>
+<rect x="78" y="104" width="544" height="236" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
+<rect x="246" y="166" width="208" height="88" fill="#C8102E" stroke="#C8102E" stroke-width="1"/>
+<text x="350" y="204" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#FFFFFF">number</text>
+<text x="350" y="224" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#FFFFFF">central claim</text>
+<rect x="116" y="132" width="116" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="174" y="161" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">lines</text>
+<line x1="174" y1="180" x2="350" y2="166" stroke="#2a1a0e" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="494" y="132" width="116" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="552" y="161" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">stacked</text>
+<line x1="552" y1="180" x2="350" y2="166" stroke="#2a1a0e" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="116" y="284" width="116" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="174" y="313" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">vertically</text>
+<line x1="174" y1="284" x2="350" y2="254" stroke="#2a1a0e" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="494" y="284" width="116" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="552" y="313" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">top</text>
+<line x1="552" y1="284" x2="350" y2="254" stroke="#2a1a0e" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+<line x1="48" y1="382" x2="652" y2="382" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="400" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 2.1</text>
+</svg>

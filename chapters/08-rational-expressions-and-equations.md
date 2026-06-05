@@ -8,6 +8,13 @@ status: draft
 
 # Suggested titles
 
+
+## TL;DR
+
+- book: prealgebra-bundle chapter: 08-rational-expressions-and-equations voice: Attenborough × Feynman v1.
+- You will practice Identify a rational expression and determine the values for which it is undefined; Simplify a rational expression by factoring numerator and denominator and canceling common factors; Multiply, divide, add, and subtract rational expressions, using the LCD when adding or subtracting expressions with unlike denominators.
+- The chapter moves through Chapter opening, Learning objectives, Prerequisites, Why this chapter matters, and related ideas.
+
 1. Rational Expressions: When Variables Land in the Denominator
 2. The Algebra of Rates and Ratios
 3. Where Polynomials Meet Division — and What Can Go Wrong
@@ -546,9 +553,7 @@ The point of all this algebra is a decision someone could make.
 
 ---
 
-## AI Wayback Machine
-
-**Bhāskara II** was 12th-century Indian mathematician whose Līlāvatī systematized rational expressions and arithmetic.
+##  AI Wayback Machine
 
 **Run this:**
 

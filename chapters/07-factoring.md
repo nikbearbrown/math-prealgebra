@@ -8,6 +8,13 @@ status: draft
 
 # Suggested titles
 
+
+## TL;DR
+
+- book: prealgebra-bundle chapter: 07-factoring voice: Attenborough × Feynman v1.
+- You will practice Find the greatest common factor (GCF) of a set of monomials and factor it out of a polynomial; Factor a four-term polynomial by grouping; Factor trinomials of the form $x^2 + bx + c$ by finding two numbers whose sum is $b$ and product is $c$.
+- The chapter moves through Chapter opening, Learning objectives, Prerequisites, Why this chapter matters, and related ideas.
+
 1. Factoring: Multiplication in Reverse, with a Purpose
 2. Pulling Polynomials Apart
 3. The Zero Product Property and Why Factoring Pays
@@ -546,8 +553,7 @@ that's a decision a real person could make.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **Diophantus of Alexandria** was wrote Arithmetica around 250 CE — the first systematic treatment of equations and factoring.
 
 **Run this:**

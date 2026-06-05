@@ -8,6 +8,13 @@ status: draft
 
 # Suggested titles
 
+
+## TL;DR
+
+- book: prealgebra-bundle chapter: 02-solving-linear-equations-and-inequalities voice: Attenborough × Feynman v1.
+- You will practice Solve any linear equation in one variable using the addition, subtraction, multiplication, and division properties of equality; Apply a general strategy: simplify each side, gather variables on one side and constants on the other, isolate; Classify a linear equation as conditional (one solution), contradiction (no solution), or identity (every real number is a solution).
+- The chapter moves through Chapter opening, Learning objectives, Prerequisites, Why this chapter matters, and related ideas.
+
 1. What "Solve for x" Actually Means
 2. The Balance and the Goal
 3. Equations: Working Backward Until the Unknown Is Alone
@@ -313,7 +320,8 @@ The trade-off is that students often arrive expecting an inequality to behave li
 - *"$-x < 5$ means $x > -5$."* Yes — multiply both sides by $-1$ and flip. The result is $x > -5$. (This is one place students often correctly recall the flip but apply it wrong; double-check by substituting a value.)
 - *"The boundary value is the solution."* No — for strict inequalities ($<$, $>$), the boundary is *excluded*. For non-strict ($\le$, $\ge$), it is included. Open circles vs. closed circles on the number line; parentheses vs. brackets in interval notation.
 
-[FIGURE: Two number lines stacked vertically. Top line: open circle at 4 with shading extending to the left, labeled "$x < 4$" and "$(-\infty, 4)$". Bottom line: closed circle at 3 with shading extending to the left, labeled "$x \le 3$" and "$(-\infty, 3]$". Pedagogical purpose: contrast strict vs. non-strict inequalities visually.]
+![Two number lines stacked vertically. Top line: open circle at 4 with shading extending to the left, labeled "$x < 4$" and "$(-\infty,...](images/02-solving-linear-equations-and-inequalities-fig-01.png)
+*Figure 2.1 — Two number lines stacked vertically*$". Pedagogical purpose: contrast strict vs. non-strict inequalities visually.]
 
 ---
 
@@ -526,9 +534,7 @@ the discrepancies are what future chapters will fix.
 
 ---
 
-## AI Wayback Machine
-
-**al-Khwarizmi** was 9th-century Persian polymath whose book on "completing and balancing" gave algebra its name.
+##  AI Wayback Machine
 
 **Run this:**
 
@@ -544,3 +550,21 @@ Who is al-Khwarizmi, and how does their work connect to linear equations and ine
 - Add a constraint: "Answer including criticisms or limits of al-Khwarizmi's methods."
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 2.1 — Two number lines stacked vertically
+
+Create a standalone D3 v7 HTML figure for "Two number lines stacked vertically". Use a horizontal bar chart with 5 labeled categories with approximate values from 0 to 100. Marks: bars or rectangular panels, direct labels, and concise value labels. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/02-solving-linear-equations-and-inequalities-fig-01.html`

@@ -8,6 +8,13 @@ status: draft — voice-anchored at workshop level (root style/VOICE.md), no per
 
 # Suggested titles
 
+
+## TL;DR
+
+- book: prealgebra-bundle chapter: 01-foundations voice: Attenborough × Feynman v1.
+- You will practice Locate any rational number on a number line, and name its opposite and absolute value; Apply the order of operations to evaluate an arithmetic or algebraic expression at given values; Identify and use the commutative, associative, identity, inverse, and distributive properties to rewrite an expression in an equivalent form.
+- The chapter moves through Chapter opening, Learning objectives, Prerequisites, Why this chapter matters, and related ideas.
+
 1. The Number Line Is Older Than Algebra
 2. Foundations: What the Number Line Knows
 3. The Spine of Arithmetic
@@ -108,7 +115,8 @@ Absolute value strips off the sign. The Latin root *absolutus* means *freed from
 
 A small subtlety: $-|5|$ is *not* the same as $|-5|$. The first is *the negative of the absolute value of five*, which equals $-5$. The second is *the absolute value of negative five*, which equals $5$. The bars do their work first, then the negative sign acts on the result.
 
-[FIGURE: A horizontal number line marked from -10 to 10 with integer ticks. Two arcs above the line span from 0 to -7 and from 0 to 7, both labeled "7" — illustrating that |-7| and |7| are both equal to 7 because they describe the same distance.]
+![A horizontal number line marked from -10 to 10 with integer ticks. Two arcs above the line span from 0 to -7 and from 0 to 7, both...](images/01-foundations-fig-01.png)
+*Figure 1.1 — horizontal number line marked from -10 to 10 with integer ticks*
 
 ### Adding integers — walking on the line
 
@@ -399,7 +407,8 @@ The cost is that the *names* of the properties hide the *thinking*. A student wh
 
 The reflexive note: these "properties" are not laws of nature. They are properties *of the real numbers under the operations of addition and multiplication*. In other mathematical systems they break. Matrix multiplication is not commutative — $AB$ and $BA$ are usually different matrices. The cross product of vectors is not associative. In modular arithmetic, every nonzero number has an inverse only when the modulus is prime. The properties of the real numbers are a *very nice* package, and you will spend the rest of this book exploiting them. But they are not the only package, and treating them as the only package limits what kinds of mathematics you can later see.
 
-[FIGURE: A two-column comparison. Left column: "Real numbers under + and ×" with bullets — commutative ✓, associative ✓, identity ✓, inverse ✓ (except 0 for ×), distributive ✓. Right column: "2×2 matrix multiplication" with bullets — commutative ✗ (AB ≠ BA in general), associative ✓, identity ✓, inverse ✓ (only for invertible matrices), distributive ✓. Pedagogical purpose: show that the properties are properties of a *system*, not laws of nature.]
+![A two-column comparison. Left column: "Real numbers under + and ×" with bullets — commutative ✓, associative ✓, identity ✓, inverse ✓...](images/01-foundations-fig-02.png)
+*Figure 1.2 — two-column comparison*
 
 ### Common misconceptions
 
@@ -649,8 +658,7 @@ Document** as a markdown document. It should:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **Aryabhata** was Indian mathematician of the 5th century who introduced the place-value system and a precise estimate of π.
 
 **Run this:**
@@ -667,3 +675,29 @@ Who is Aryabhata, and how does their work connect to pre-algebra foundations we 
 - Add a constraint: "Answer including criticisms or limits of Aryabhata's methods."
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 1.1 — horizontal number line marked from -10 to 10 with integer ticks
+
+Create a standalone D3 v7 HTML figure for "horizontal number line marked from -10 to 10 with integer ticks". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/01-foundations-fig-01.html`
+
+---
+
+### Figure 1.2 — two-column comparison
+
+Create a standalone D3 v7 HTML figure for "two-column comparison". Use a 2x2 matrix with four quadrants plus axis labels. Marks: bars or rectangular panels, direct labels, and concise value labels. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/01-foundations-fig-02.html`

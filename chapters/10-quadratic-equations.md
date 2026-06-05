@@ -8,6 +8,13 @@ status: draft
 
 # Suggested titles
 
+
+## TL;DR
+
+- book: prealgebra-bundle chapter: 10-quadratic-equations voice: Attenborough × Feynman v1.
+- You will practice Solve a quadratic equation of the form $ax^2 = k$ using the Square Root Property; Complete the square of a binomial expression and use it to convert any quadratic to the form $(x - h)^2 = k$; Apply the quadratic formula $x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ to solve any quadratic.
+- The chapter moves through Chapter opening, Learning objectives, Prerequisites, Why this chapter matters, and related ideas.
+
 1. Quadratic Equations: When Factoring Isn't Enough
 2. The Quadratic Formula, the Discriminant, and the Parabola
 3. Three Ways to Solve, One Picture to See
@@ -279,7 +286,8 @@ The discriminant ↔ number of x-intercepts is the same correspondence as discri
 >
 > *Sketch* a smooth U-shape passing through these points.
 
-[FIGURE: A parabola $y = x^2 - 4x + 3$ plotted on a coordinate plane, with axis of symmetry $x = 2$ shown as a dashed vertical line, vertex labeled at $(2, -1)$, x-intercepts marked at $(1, 0)$ and $(3, 0)$, y-intercept at $(0, 3)$, and the symmetric point $(4, 3)$ also marked. Pedagogical purpose: visualize how the algebraic features (vertex formula, intercepts, symmetry) place the parabola in the plane.]
+![A parabola $y = x^2 - 4x + 3$ plotted on a coordinate plane, with axis of symmetry $x = 2$ shown as a dashed vertical line, vertex...](images/10-quadratic-equations-fig-01.png)
+*Figure 10.1 — parabola $y = x^2*
 
 ### Applications — maximum and minimum problems
 
@@ -570,8 +578,7 @@ Output the compiled document as one master markdown file (3,000–
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **Brahmagupta** was 7th-century Indian mathematician who gave the first explicit general solution of the quadratic equation.
 
 **Run this:**
@@ -588,3 +595,21 @@ Who is Brahmagupta, and how does their work connect to quadratic equations we co
 - Add a constraint: "Answer including criticisms or limits of Brahmagupta's methods."
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 10.1 — parabola $y = x^2
+
+Create a standalone D3 v7 HTML figure for "parabola $y = x^2". Use a 2x2 matrix with four quadrants plus axis labels. Marks: bars or rectangular panels, direct labels, and concise value labels. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/10-quadratic-equations-fig-01.html`

@@ -8,6 +8,13 @@ status: draft
 
 # Suggested titles
 
+
+## TL;DR
+
+- book: prealgebra-bundle chapter: 09-roots-and-radicals voice: Attenborough × Feynman v1.
+- You will practice Simplify expressions involving square roots, including those with variables, by extracting perfect-square factors; Apply the Product Property $\sqrt{ab} = \sqrt{a} \cdot \sqrt{b}$ and the Quotient Property $\sqrt{a/b} = \sqrt{a}/\sqrt{b}$ (for nonneg reals, $b \ne 0$) to simplify radical expressions; Add, subtract, multiply, and divide square root expressions, combining like radicals when possible.
+- The chapter moves through Chapter opening, Learning objectives, Prerequisites, Why this chapter matters, and related ideas.
+
 1. Roots and Radicals: Squaring's Inverse
 2. The Algebra of Square Roots
 3. When You Need to Undo a Square
@@ -540,8 +547,7 @@ that's the boundary of usable range." Real meaning is the point.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **Niccolò Tartaglia** was 16th-century Italian who developed the cubic formula — eventually published (without credit) by Cardano.
 
 **Run this:**

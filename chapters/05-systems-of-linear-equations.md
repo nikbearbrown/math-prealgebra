@@ -8,6 +8,13 @@ status: draft
 
 # Suggested titles
 
+
+## TL;DR
+
+- book: prealgebra-bundle chapter: 05-systems-of-linear-equations voice: Attenborough × Feynman v1.
+- You will practice Verify that an ordered pair is a solution of a system of two linear equations; Solve a system of two linear equations by graphing, substitution, or elimination; Classify a system as consistent and independent (one solution), inconsistent (no solution, parallel lines), or dependent (infinitely many solutions, identical lines).
+- The chapter moves through Chapter opening, Learning objectives, Prerequisites, Why this chapter matters, and related ideas.
+
 1. Two Equations, One Truth
 2. Systems: Where the Lines Cross
 3. The Geometry of Simultaneous Constraints
@@ -65,7 +72,8 @@ In chapter 4, you learned that a single linear equation in two variables has inf
 
 This taxonomy mirrors the conditional/contradiction/identity taxonomy of single linear equations from chapter 2 §3, and for the same reason: a system reduces to a single linear equation in the elimination or substitution method, and that single equation falls into one of those three categories.
 
-[FIGURE: Three small coordinate planes side by side. Left plane shows two lines crossing at one point, labeled "(A) one solution — consistent, independent." Middle plane shows two parallel lines, labeled "(B) no solution — inconsistent." Right plane shows two identical lines (drawn as one), labeled "(C) infinitely many solutions — consistent, dependent." Pedagogical purpose: place the three outcomes side-by-side so the geometric distinction is visually unmistakable.]
+![Three small coordinate planes side by side. Left plane shows two lines crossing at one point, labeled "(A) one solution — consistent,...](images/05-systems-of-linear-equations-fig-01.png)
+*Figure 5.1 — Three small coordinate planes side by side*
 
 ### Verifying a candidate solution
 
@@ -518,8 +526,7 @@ useful when it changes what someone would do.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **Carl Friedrich Gauss** was developed Gaussian elimination in 1809 — the algorithm at the heart of every modern linear-system solver.
 
 **Run this:**
@@ -536,3 +543,21 @@ Who is Carl Friedrich Gauss, and how does their work connect to systems of equat
 - Add a constraint: "Answer including criticisms or limits of Carl Friedrich Gauss's methods."
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 5.1 — Three small coordinate planes side by side
+
+Create a standalone D3 v7 HTML figure for "Three small coordinate planes side by side". Use a two-panel comparison with 5 labeled categories with approximate values from 0 to 100. Marks: bars or rectangular panels, direct labels, and concise value labels. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/05-systems-of-linear-equations-fig-01.html`

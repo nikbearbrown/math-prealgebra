@@ -8,6 +8,13 @@ status: draft
 
 # Suggested titles
 
+
+## TL;DR
+
+- book: prealgebra-bundle chapter: 03-math-models voice: Attenborough × Feynman v1.
+- You will practice Apply a five-step problem-solving strategy: read, name, translate, solve, verify; Translate word problems involving consecutive integers, percents, simple interest, discount and markup into linear equations; Solve mixture problems — coins, tickets, solutions, investments — using the structure $\text{amount} \times \text{value} = \text{quantity}$.
+- The chapter moves through Chapter opening, Learning objectives, Prerequisites, Why this chapter matters, and related ideas.
+
 1. The Word-Problem Translation Step
 2. Math Models: Turning a Story Into an Equation
 3. From the World to the Equation and Back
@@ -510,8 +517,7 @@ variable). Two problems from one situation is how you generalize.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **Ada Lovelace** was wrote the first algorithm for the Analytical Engine in 1843 — and articulated how math models could represent any process.
 
 **Run this:**

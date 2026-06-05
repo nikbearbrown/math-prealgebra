@@ -1,0 +1,25 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-1-1 desc-1-1">
+<title id="title-1-1">horizontal number line marked from -10 to 10 with integer ticks</title>
+<desc id="desc-1-1">A horizontal number line marked from -10 to 10 with integer ticks. Two arcs above the line span from 0 to -7 and from 0 to 7, both labeled "7" — illustrating that |-7| and |7| are both equal to 7 because they describe the same distance.</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<text x="48" y="54" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">horizontal number line marked from -10 to 10 with integer ticks</text>
+<text x="48" y="78" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454"><tspan x="48" dy="0">A horizontal number line marked from -10 to 10 with integer ticks.</tspan><tspan x="48" dy="15">Two arcs above the line span from 0 to -7 and from 0 to 7, both</tspan><tspan x="48" dy="15">labeled "7" — illustrating that |-7| and |7| are both equal to 7</tspan><tspan x="48" dy="15">because they describe the same distance.</tspan></text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+<rect x="48" y="170" width="96" height="64" fill="#C8102E" stroke="#D4D4D4" stroke-width="1"/>
+<text x="96" y="202" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#FFFFFF">horizontal</text>
+<path d="M 148 202 L 168 202" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="172" y="170" width="96" height="64" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="220" y="202" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">number</text>
+<path d="M 272 202 L 292 202" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="296" y="170" width="96" height="64" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="344" y="202" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">line</text>
+<path d="M 396 202 L 416 202" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="420" y="170" width="96" height="64" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="468" y="202" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">marked</text>
+<path d="M 520 202 L 540 202" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="544" y="170" width="96" height="64" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="592" y="202" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">integer</text>
+
+<line x1="48" y1="382" x2="652" y2="382" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="400" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 1.1</text>
+</svg>

@@ -8,6 +8,13 @@ status: draft
 
 # Suggested titles
 
+
+## TL;DR
+
+- book: prealgebra-bundle chapter: 04-graphs voice: Attenborough × Feynman v1.
+- You will practice Plot points in the rectangular (Cartesian) coordinate plane and identify the four quadrants; Verify that an ordered pair is a solution to a linear equation in two variables, and find solutions by completing a table of values; Graph a linear equation in two variables by plotting points or by using the intercepts.
+- The chapter moves through Chapter opening, Learning objectives, Prerequisites, Why this chapter matters, and related ideas.
+
 1. The Picture of an Equation
 2. Graphs: Reading Lines at a Glance
 3. Slope, Intercepts, and What a Line Says
@@ -63,7 +70,8 @@ The horizontal axis is the **x-axis**; the vertical is the **y-axis**. They meet
 
 An **ordered pair** $(x, y)$ locates a unique point. The order matters: $(3, 5)$ and $(5, 3)$ are different points. The first number is always the horizontal coordinate (the x-coordinate, or *abscissa*); the second is always the vertical (the y-coordinate, or *ordinate*).
 
-[FIGURE: A Cartesian coordinate plane with x and y axes labeled, origin marked, four quadrants labeled with Roman numerals I-IV, and four points plotted: (3, 5), (-2, 4), (-3, -1), (4, -2) — one in each quadrant. Pedagogical purpose: visualize the four quadrants and confirm that ordered pairs locate unique points.]
+![A Cartesian coordinate plane with x and y axes labeled, origin marked, four quadrants labeled with Roman numerals I-IV, and four points...](images/04-graphs-fig-01.png)
+*Figure 4.1 — Cartesian coordinate plane with x and y axes labeled, origin marked,...*
 
 ### Equations in two variables
 
@@ -504,9 +512,12 @@ makes that you can test against reality.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **René Descartes** was introduced the coordinate system in 1637 that lets algebra and geometry talk to each other.
+
+![René Descartes](../images/rene-descartes-29a.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 
 **Run this:**
 
@@ -522,3 +533,21 @@ Who is René Descartes, and how does their work connect to graphs we covered in 
 - Add a constraint: "Answer including criticisms or limits of René Descartes's methods."
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 4.1 — Cartesian coordinate plane with x and y axes labeled, origin marked,...
+
+Create a standalone D3 v7 HTML figure for "Cartesian coordinate plane with x and y axes labeled, origin marked,...". Use a 2x2 matrix with four quadrants plus axis labels. Marks: bars or rectangular panels, direct labels, and concise value labels. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/04-graphs-fig-01.html`

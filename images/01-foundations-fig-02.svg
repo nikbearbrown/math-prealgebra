@@ -1,0 +1,21 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-1-2 desc-1-2">
+<title id="title-1-2">two-column comparison</title>
+<desc id="desc-1-2">A two-column comparison. Left column: "Real numbers under + and ×" with bullets — commutative ✓, associative ✓, identity ✓, inverse ✓ (except 0 for ×), distributive ✓. Right column: "2×2 matrix multiplication" with bullets — commutative ✗ (AB ≠ BA in general), associative ✓, identity ✓, inverse ✓ (only for invertible matrices), distributive ✓. Pedagogical purpose: show that the properties are properties of a *system*, not laws of nature.</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<text x="48" y="54" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">two-column comparison</text>
+<text x="48" y="78" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454"><tspan x="48" dy="0">A two-column comparison. Left column: "Real numbers under + and ×"</tspan><tspan x="48" dy="15">with bullets — commutative ✓, associative ✓, identity ✓, inverse ✓</tspan><tspan x="48" dy="15">(except 0 for ×), distributive ✓. Right column: "2×2 matrix</tspan><tspan x="48" dy="15">multiplication" with bullets — commutative ✗ (AB ≠ BA in general),</tspan></text>
+<rect x="116" y="104" width="468" height="248" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
+<line x1="350" y1="104" x2="350" y2="352" stroke="#2a1a0e" stroke-width="1"/>
+<line x1="116" y1="228" x2="584" y2="228" stroke="#2a1a0e" stroke-width="1"/>
+<circle cx="233" cy="166" r="34" fill="#C8102E" opacity="1"/>
+<text x="233" y="170" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#FFFFFF">column</text>
+<circle cx="467" cy="166" r="34" fill="#1A3A5C" opacity="1"/>
+<text x="467" y="170" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#FFFFFF">comparison</text>
+<circle cx="233" cy="290" r="34" fill="#6B3520" opacity="1"/>
+<text x="233" y="294" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#FFFFFF">real</text>
+<circle cx="467" cy="290" r="34" fill="#6B3520" opacity="0.75"/>
+<text x="467" y="294" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#FFFFFF">numbers</text>
+<text x="350" y="378" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">LOW → HIGH</text>
+<line x1="48" y1="382" x2="652" y2="382" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="400" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 1.2</text>
+</svg>

@@ -8,6 +8,13 @@ status: draft
 
 # Suggested titles
 
+
+## TL;DR
+
+- book: prealgebra-bundle chapter: 06-polynomials voice: Attenborough × Feynman v1.
+- You will practice Identify polynomials, classify them as monomials, binomials, or trinomials, and determine their degree; Add and subtract polynomials by combining like terms; Apply the exponent rules — product, power, power-of-product, quotient — to simplify expressions.
+- The chapter moves through Chapter opening, Learning objectives, Prerequisites, Why this chapter matters, and related ideas.
+
 1. Polynomials: The Language of Non-Linear Scaling
 2. Beyond the Line: Many-Term Expressions and How They Behave
 3. Exponents, Polynomials, and the Multiplication of Sums
@@ -572,8 +579,7 @@ visualization of what nonlinearity is doing.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **Hypatia of Alexandria** was taught the algebra of Diophantus in 4th-century Alexandria — and was murdered for her public intellectual role.
 
 **Run this:**
